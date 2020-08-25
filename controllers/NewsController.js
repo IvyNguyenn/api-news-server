@@ -52,7 +52,7 @@ class NewsController {
                   .children("a")
                   .children("picture")
                   .children("img")
-                  .attr("src"),
+                  .attr("data-src"),
                 description: $(this)
                   .children(".description")
                   .children("a")
