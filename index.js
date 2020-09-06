@@ -11,6 +11,8 @@ const corsOptions = {
     "http://localhost:8081",
     "https://localhost:8080",
     "https://localhost:8081",
+    "https://book-ecommerce.web.app/",
+    "https://book-ecommerce.firebaseapp.com/",
     "*",
   ], // reqexp will match all prefixes
   // default: "http://localhost:9999",
