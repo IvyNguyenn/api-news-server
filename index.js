@@ -7,13 +7,14 @@ var cors = require("cors");
 // pass CORS
 const corsOptions = {
   origin: [
-    "*",
     "http://localhost:8080",
     "http://localhost:8081",
     "https://localhost:8080",
     "https://localhost:8081",
     "https://book-ecommerce.web.app",
     "https://book-ecommerce.firebaseapp.com",
+    "https://newstoday.web.app",
+    "https://newstoday.firebaseapp.com",
   ], // reqexp will match all prefixes
   // default: "http://localhost:9999",
   methods: "GET,HEAD,POST,PATCH,DELETE,OPTIONS,PUT",
